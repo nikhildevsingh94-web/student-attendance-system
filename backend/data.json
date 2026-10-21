@@ -1,0 +1,90 @@
+{
+  "admins": [
+    {
+      "id": "1ea8e36c-c594-446e-b9c7-46dfcf89f57d",
+      "name": "System Administrator",
+      "email": "admin@college.edu",
+      "password": "$2a$10$uSNq6eaW6Og6ItePDOrIbOIpVU.W2L4iv8k4dOFVHSEGh6c7jVDuq",
+      "role": "admin",
+      "createdAt": "2026-10-21T04:15:48.185Z"
+    }
+  ],
+  "students": [
+    {
+      "id": "0985c650-bf13-4b92-8cd7-1939b9e2223b",
+      "name": "Aarav Patel",
+      "rollNumber": "CS2026-001",
+      "email": "aarav.patel@gmail.com",
+      "branch": "Computer Science",
+      "classYear": "1st Year",
+      "section": "A",
+      "password": "$2a$10$nfQBH6ktre73PJfr6R/MOuvELg8LkGKcz6BkiZ5rpv9rNMvkF395G",
+      "createdAt": "2026-10-21T04:25:47.075Z"
+    },
+    {
+      "id": "94ec9fba-64dc-4ebb-bd00-4bd6c4273388",
+      "name": "Neha Verma",
+      "rollNumber": "CS2026-002",
+      "email": "neha.verma@gmail.com",
+      "branch": "Computer Science",
+      "classYear": "1st Year",
+      "section": "A",
+      "password": "$2a$10$sWjXlu9NlNdKBtipkivrGOR8SwRpGu.D9ai/gPIM42ECt0/tkV3kW",
+      "createdAt": "2026-10-21T04:25:47.195Z"
+    },
+    {
+      "id": "8a920b5b-026f-417b-93e3-a57fe627c702",
+      "name": "navneet bhati",
+      "rollNumber": "24003210000",
+      "email": "navneetbhati123@gmail.com",
+      "branch": "Computer Science",
+      "classYear": "1st Year",
+      "section": "A",
+      "password": "$2a$10$/syEoexcu1/lIxvI0sHNhuYJuVgDBri0nmrCk49KuF2XtsueNhdnO",
+      "createdAt": "2026-10-21T05:31:47.342Z"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "6a4fd936-149d-483c-8a7f-5c88e575378b",
+      "studentId": "0985c650-bf13-4b92-8cd7-1939b9e2223b",
+      "date": "2026-10-21",
+      "status": "present",
+      "branch": "Computer Science",
+      "classYear": "1st Year",
+      "section": "A",
+      "markedBy": "admin@college.edu",
+      "markedAt": "2026-10-21T04:25:47.223Z",
+      "updatedAt": "2026-10-21T04:37:55.281Z"
+    },
+    {
+      "id": "7f8488b7-04a8-4a1f-9048-a1f07db39c87",
+      "studentId": "94ec9fba-64dc-4ebb-bd00-4bd6c4273388",
+      "date": "2026-10-21",
+      "status": "present",
+      "branch": "Computer Science",
+      "classYear": "1st Year",
+      "section": "A",
+      "markedBy": "admin@college.edu",
+      "markedAt": "2026-10-21T04:25:47.223Z",
+      "updatedAt": "2026-10-21T04:37:55.281Z"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "c467f6fa-6872-4773-9047-32f9c0669443",
+      "title": "Data Structures Assignment 1",
+      "description": "Implement Binary Search Trees and AVL Trees",
+      "branch": "Computer Science",
+      "classYear": "1st Year",
+      "section": "A",
+      "dueDate": "2026-11-01",
+      "filename": "1792556747366-a8b0bc67-8ff5-4bf0-bb0d-b704869aff30.pdf",
+      "originalName": "algorithms-assignment.pdf",
+      "fileSize": 50,
+      "mimeType": "application/pdf",
+      "uploadedAt": "2026-10-21T04:25:47.370Z",
+      "uploadedBy": "System Administrator"
+    }
+  ]
+}

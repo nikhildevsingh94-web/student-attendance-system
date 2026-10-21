@@ -1,0 +1,26 @@
+{
+  "name": "student-attendance-portal",
+  "version": "1.0.0",
+  "description": "Student Attendance Management Portal - Complete Monorepo",
+  "scripts": {
+    "init:admin": "npm --prefix server run init:admin",
+    "server": "npm --prefix server start",
+    "server:dev": "npm --prefix server run dev",
+    "backend": "npm --prefix server start",
+    "backend:dev": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": [
+    "student-attendance",
+    "portal",
+    "react",
+    "vite",
+    "express",
+    "jwt",
+    "json-database"
+  ],
+  "author": "",
+  "license": "ISC"
+}
